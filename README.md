@@ -69,13 +69,13 @@ choco install ldc
 ```
 Then build it.
 ```powershell
-$ .\build.bat
+.\build.bat
 ```
 
 You can also compile with Profile-Guided Optimizations (PGO) by specifying input arguments that will be used for optimization:
 
 ```powershell
-$ .\build.bat sample-hashes.txt sample-names.txt
+.\build.bat sample-hashes.txt sample-names.txt
 ```
 
 (You might want to pass `--expand 0` to save time)
